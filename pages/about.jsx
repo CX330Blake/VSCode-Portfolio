@@ -23,7 +23,7 @@ export default function AboutMe() {
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>Name: </strong>
-                  Izuka Chigozie Emmanuel Brain</span>
+                  Blake Chen (CX330)</span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
