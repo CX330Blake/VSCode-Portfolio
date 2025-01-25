@@ -12,9 +12,9 @@ const Titlebar = () => {
         className={styles.icon}
       /> */}
        <div className={styles.windowButtons}>
+        <span className={styles.close}></span>
         <span className={styles.minimize}></span>
         <span className={styles.maximize}></span>
-        <span className={styles.close}></span>
       </div>
 
 
