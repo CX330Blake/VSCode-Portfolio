@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
 .container {
   display: flex;
@@ -10,13 +11,12 @@
 
 .background {
   font-size: 5rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   line-height: 1.1;
   color: var(--bg-text);
   position: absolute;
   z-index: 1;
   transform: translateY(-20%);
-
 }
 
 .foreground {
@@ -31,7 +31,8 @@
   color: #eee;
   font-size: 4rem;
   font-weight: 500;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Fira Code", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-shadow: 4px 4px 6px #000;
   margin-bottom: 0.5rem;
 }
@@ -46,14 +47,14 @@
 }
 
 .react {
-  color: #0088cc;
+  color: #ff79c6;
   /* -webkit-text-stroke: 1px #2d2d2d; */
   text-shadow: 2px 2px 4px #000;
 }
 
 .bio::before,
 .bio::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -70,7 +71,8 @@
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
+  animation:
+    typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
 
@@ -211,7 +213,8 @@
     margin-left: 0.4rem;
     width: 0.125em;
     background: none;
-    animation: typewriter 2.5s steps(24) 500ms forwards,
+    animation:
+      typewriter 2.5s steps(24) 500ms forwards,
       blink 750ms steps(24) infinite;
   }
   .name {
@@ -240,10 +243,10 @@
 /* hide as long as it is not a pc view ie 900px min */
 @media screen and (max-width: 900px) {
   .container {
-      margin-top: 100px;
-    }
+    margin-top: 100px;
+  }
 
-    .bio {
-  width: 100%;
-    }
+  .bio {
+    width: 100%;
+  }
 }

@@ -1,21 +1,21 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import FilesIcon from './icons/FilesIcon';
-import GithubIcon from './icons/GithubIcon';
-import TwitterIcon from './icons/TwitterIcon';
-import MailIcon from './icons/MailIcon';
-import AccountIcon from './icons/AccountIcon';
-import SettingsIcon from './icons/SettingsIcon';
-import WhatsAppIcon from './icons/WhatsappIcon';
-import FacebookIcon from './icons/FacebookIcon';
-import TikTokIcon from './icons/TiktokIcon';
-import styles from '../styles/Sidebar.module.css';
-import LinkedInIcon from './icons/LinkedInIcon';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import FilesIcon from "./icons/FilesIcon";
+import GithubIcon from "./icons/GithubIcon";
+import TwitterIcon from "./icons/TwitterIcon";
+import MailIcon from "./icons/MailIcon";
+import AccountIcon from "./icons/AccountIcon";
+import SettingsIcon from "./icons/SettingsIcon";
+import WhatsAppIcon from "./icons/WhatsappIcon";
+import FacebookIcon from "./icons/FacebookIcon";
+import TikTokIcon from "./icons/TiktokIcon";
+import styles from "../styles/Sidebar.module.css";
+import LinkedInIcon from "./icons/LinkedInIcon";
 
 const sidebarTopItems = [
   {
     Icon: FilesIcon,
-    path: '/',
+    path: "/",
   },
   // {
   //   Icon: WhatsAppIcon,
@@ -23,38 +23,38 @@ const sidebarTopItems = [
   // },
   {
     Icon: TwitterIcon,
-    path: 'https://x.com/gozkybrain4u',
+    path: "https://x.com/CX330Blake",
   },
   {
     Icon: GithubIcon,
-    path: '/github',
+    path: "/github",
   },
   {
     Icon: FacebookIcon,
-    path: 'https://facebook.com/izuka.emmanuel',
+    path: "https://facebook.com/profile.php?id=100011698690769",
   },
   {
     Icon: LinkedInIcon,
-    path: 'https://www.linkedin.com/in/gozkybrain-izuka-75612024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    path: "https://www.linkedin.com/in/gozkybrain-izuka-75612024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     Icon: TikTokIcon,
-    path: 'https://www.tiktok.com/@gozkybrain',
+    path: "https://www.tiktok.com/@gozkybrain",
   },
   {
     Icon: MailIcon,
-    path: 'mailto:gozkybrain@gmail.com',
+    path: "mailto:cx330tw@gmail.com",
   },
 ];
 
 const sidebarBottomItems = [
   {
     Icon: AccountIcon,
-    path: '/about',
+    path: "/about",
   },
   {
     Icon: SettingsIcon,
-    path: '/settings',
+    path: "/settings",
   },
 ];
 
@@ -68,15 +68,13 @@ const Sidebar = () => {
           <div key={index} className={styles.iconContainer}>
             <Link href={path} passHref>
               <div
-                className={
-                  router.pathname === path ? styles.active : undefined
-                }
+                className={router.pathname === path ? styles.active : undefined}
               >
                 <Icon
                   fill={
                     router.pathname === path
-                      ? 'rgb(225, 228, 232)'
-                      : 'rgb(106, 115, 125)'
+                      ? "rgb(225, 228, 232)"
+                      : "rgb(106, 115, 125)"
                   }
                   className={styles.icon}
                 />
@@ -90,15 +88,13 @@ const Sidebar = () => {
           <div key={index} className={styles.iconContainer}>
             <Link href={path} passHref>
               <div
-                className={
-                  router.pathname === path ? styles.active : undefined
-                }
+                className={router.pathname === path ? styles.active : undefined}
               >
                 <Icon
                   fill={
                     router.pathname === path
-                      ? 'rgb(225, 228, 232)'
-                      : 'rgb(106, 115, 125)'
+                      ? "rgb(225, 228, 232)"
+                      : "rgb(106, 115, 125)"
                   }
                   className={styles.icon}
                 />
