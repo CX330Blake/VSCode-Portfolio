@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import styles from '../styles/About.module.css';
-import brain from '../public/brain.jpg';
+import Image from "next/image";
+import styles from "../styles/About.module.css";
+import brain from "../public/brain.jpg";
 
 export default function AboutMe() {
   return (
@@ -22,18 +22,25 @@ export default function AboutMe() {
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span><strong className={styles.strong}>Name: </strong>
-                  Blake Chen (CX330)</span>
+                <span>
+                  <strong className={styles.strong}>Name: </strong>
+                  Blake Chen (CX330)
+                </span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Nationality: </strong>
-                  Nigeria 🇳🇬</span>
+                <span>
+                  {" "}
+                  <strong className={styles.strong}>Nationality: </strong>
+                  Nigeria 🇳🇬
+                </span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span><strong className={styles.strong}>College Degree: </strong>
-                  Industrial Microbiology</span>
+                <span>
+                  <strong className={styles.strong}>College Degree: </strong>
+                  Industrial Microbiology
+                </span>
               </li>
             </ul>
           </div>
@@ -41,75 +48,94 @@ export default function AboutMe() {
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Aliases: </strong>
-                  Gozkybrain Izuka, Sarcastic Geek, Gee Brain</span>
+                <span>
+                  {" "}
+                  <strong className={styles.strong}>Aliases: </strong>
+                  Gozkybrain Izuka, Sarcastic Geek, Gee Brain
+                </span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Zodiac: </strong>
-                  Leo (27 July)</span>
+                <span>
+                  {" "}
+                  <strong className={styles.strong}>Zodiac: </strong>
+                  Leo (27 July)
+                </span>
               </li>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
-                <span> <strong className={styles.strong}>Availability: </strong>
-                  Freelance, Remote, & Hybrid</span>
+                <span>
+                  {" "}
+                  <strong className={styles.strong}>Availability: </strong>
+                  Freelance, Remote, & Hybrid
+                </span>
               </li>
             </ul>
           </div>
         </div>
         <div className={styles.paragraph}>
-          Innovative and deadline-driven Developer with 3+ years of experience researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible. I make the whole concept of developing, a whole vibe - A Normal Life is Boring.        </div>
+          Innovative and deadline-driven Developer with 3+ years of experience
+          researching and developing solutions that meet client satisfaction
+          using the easiest, yet effective approach possible. I make the whole
+          concept of developing, a whole vibe - A Normal Life is Boring.{" "}
+        </div>
 
         {/* Skills Section */}
         <div className={styles.skillsSection}>
-        <h3 className={styles.textHead}>Skills</h3>
+          <h3 className={styles.textHead}>Skills</h3>
           <div className={styles.skillsGrid}>
             <div className={styles.skill}>
-              <span className={styles.skillName}>JavaScript</span>
+              <span className={styles.skillName}>Web Hacking</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '89%' }}></div>
+                <div className={styles.progress} style={{ width: "70%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>ReactJS, NextJS & React Native</span>
+              <span className={styles.skillName}>Reverse Engineering</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: "65%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>CSS & Bootstrap</span>
+              <span className={styles.skillName}>
+                Pwn (Binary Exploitation)
+              </span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '92%' }}></div>
+                <div className={styles.progress} style={{ width: "30%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>MongoDB, ExpressJS & NodeJS</span>
+              <span className={styles.skillName}>Backend & Frontend Dev</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '75%' }}></div>
+                <div className={styles.progress} style={{ width: "75%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Motoko, Solana Rust & Web3JS</span>
+              <span className={styles.skillName}>
+                Motoko, Solana Rust & Web3JS
+              </span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '60%' }}></div>
+                <div className={styles.progress} style={{ width: "60%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Wordpress</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '95%' }}></div>
+                <div className={styles.progress} style={{ width: "95%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Firebase, EmailJS, & MailJet</span>
+              <span className={styles.skillName}>
+                Firebase, EmailJS, & MailJet
+              </span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: "85%" }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Git & Postman</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '85%' }}></div>
+                <div className={styles.progress} style={{ width: "85%" }}></div>
               </div>
             </div>
           </div>
@@ -122,6 +148,6 @@ export default function AboutMe() {
 // Fetch static props if needed for SSR or static generation
 export async function getStaticProps() {
   return {
-    props: { title: 'About' },
+    props: { title: "About" },
   };
 }

@@ -15,14 +15,16 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>I BUILD</h1>
-          <h1>MAGIC!</h1>
+          <h1>HACK THE</h1>
+          <h1>PLANET!</h1>
         </div>
         <d    iv className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Sarcastic Geek</h1>
-            <h6 className={styles.bio}>Software Developer with
-              <span className={styles.react}> React.</span></h6>
+            <h1 className={styles.name}>CX330</h1>
+            <h6 className={styles.bio}>Hacker | Researcher 
+              <span className={styles.react}> React</span>
+              <span className={styles.react}> Binja</span>
+            </h6>
 
             {/* Skill Icons Section */}
             <div className={styling.skillsContainer}>
